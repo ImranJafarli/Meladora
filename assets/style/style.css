@@ -1,0 +1,518 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.header {
+  background-image: url(../image/main-banner/markus-spiske-71uUjIt3cIs-unsplash.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.header .overlay {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+}
+
+.header .container {
+  max-width: 1110px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header .container .info {
+  width: 100%;
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-bottom: 1px solid #fff;
+}
+
+.header .container .info .phone {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .container .info .phone i {
+  color: #91b40d;
+}
+
+.header .container .info .phone i:hover {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.header .container .info .phone a {
+  color: #fff;
+  font-size: 18px;
+}
+
+.header .container .info .phone a:hover {
+  color: #91b40d;
+}
+
+.header .container .info .social {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.header .container .info .social ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}
+
+.header .container .info .social ul a {
+  color: #fff;
+}
+
+.header .container .info .social ul a:hover {
+  color: #91b40d;
+}
+
+.header .navbar {
+  position: fixed;
+  width: 100%;
+  padding: 15px 0;
+  z-index: 1;
+}
+
+.header .navbar .container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.header .navbar .container .nav-menu {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .navbar .container .nav-menu .logo .logo2 {
+  display: none;
+  width: 115px;
+  height: 45px;
+}
+
+.header .navbar .container .nav-menu .menu {
+  width: 100%;
+  -ms-flex-item-align: self-end;
+      -ms-grid-row-align: self-end;
+      align-self: self-end;
+}
+
+.header .navbar .container .nav-menu .menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .navbar .container .nav-menu .menu ul img {
+  visibility: hidden;
+}
+
+.header .navbar .container .nav-menu .menu ul li {
+  margin-right: 25px;
+}
+
+.header .navbar .container .nav-menu .menu ul li a {
+  color: #fff;
+  font-size: 18px;
+}
+
+.header .navbar .container .nav-menu .menu ul li a:hover {
+  color: #91b40d;
+  border-bottom: 1px solid #91b40d;
+}
+
+.header .navbar .container .nav-menu .menu ul li a:hover ul img {
+  visibility: visible;
+}
+
+.header .navbar .container .nav-menu .search i {
+  color: #fff;
+  cursor: pointer;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.container .cards {
+  width: 100%;
+  height: auto;
+  position: relative;
+  bottom: 95px;
+}
+
+.container .cards .fruit-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.container .cards .fruit-card .card1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #1a5221;
+}
+
+.container .cards .fruit-card .card1 .card-text {
+  padding: 40px 15px;
+  color: #fff;
+}
+
+.container .cards .fruit-card .card1 .card-text h2 {
+  padding: 20px 0;
+}
+
+.container .cards .fruit-card .card1 .card-text p {
+  padding: 25px 0;
+}
+
+.container .cards .fruit-card .card2 {
+  width: 331px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #91b40d;
+}
+
+.container .cards .fruit-card .card2 .card-text {
+  padding: 40px 15px;
+  color: #fff;
+}
+
+.container .cards .fruit-card .card2 .card-text h2 {
+  padding: 20px 0;
+}
+
+.container .cards .fruit-card .card2 .card-text p {
+  padding: 25px 0;
+}
+
+.container .cards .fruit-card .card2 img {
+  width: 210px;
+}
+
+.container .cards .fruit-card .card3 {
+  width: 331px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffbf00;
+}
+
+.container .cards .fruit-card .card3 .card-text {
+  padding: 40px 15px;
+  color: #fff;
+}
+
+.container .cards .fruit-card .card3 .card-text h2 {
+  padding: 20px 0;
+}
+
+.container .cards .fruit-card .card3 .card-text p {
+  padding: 25px 0;
+}
+
+.container .cards .fruit-card .card3 img {
+  width: 230px;
+}
+
+.introduction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+}
+
+.introduction .who-we {
+  width: 36%;
+  height: auto;
+}
+
+.introduction .who-we img {
+  width: 100%;
+  height: 870px;
+}
+
+.introduction .who-we-text {
+  width: 63%;
+  height: 844px;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+.introduction .who-we-text h2 {
+  font-size: 34px;
+  font-weight: 700;
+  padding: 20px 0;
+}
+
+.introduction .who-we-text p {
+  line-height: 1.8;
+  padding: 15px 0;
+}
+
+.introduction .who-we-text .quality-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 20px 0;
+}
+
+.garden {
+  width: 100%;
+}
+
+.garden .container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.garden .container .our-garden {
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.garden .container .our-garden h1 {
+  font-size: 38px;
+  padding: 15px 0;
+}
+
+.garden .container .garden-cards {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.garden .container .garden-cards .garden-card {
+  width: 33%;
+}
+
+.garden .container .garden-cards .garden-card .series h2 {
+  font-size: 75px;
+}
+
+.products {
+  width: 100%;
+}
+
+.products .container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.products .container .product-text {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.products .container .product-text h2 {
+  font-size: 38px;
+  padding: 15px;
+}
+
+.products .container .product-list {
+  width: 100%;
+}
+
+.products .container .product-list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-size: 22px;
+}
+
+.products .container .product-list ul li a {
+  color: #888;
+}
+
+.products .container .product-list ul li a:hover {
+  color: #91b40d;
+}
+
+.products .container .product-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 25px;
+  padding: 40px 0;
+}
+
+.products .container .product-card .fruit-info {
+  width: 200px;
+  height: 270px;
+  background-color: #fdfafa;
+  margin-bottom: 15px;
+}
+
+.products .container .product-card .fruit-info .fruit-price {
+  background-color: #fff;
+  width: 200px;
+  cursor: pointer;
+  -webkit-box-shadow: 2px 6px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 6px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.products .container .product-card .fruit-info .fruit-price h4 {
+  text-align: center;
+  font-size: 22px;
+}
+
+.products .container .product-card .fruit-info .fruit-price span {
+  color: #91b40d;
+  text-align: center;
+  font-size: 25px;
+  padding: 0 82px;
+}
+
+.blog {
+  width: 100%;
+}
+
+.blog .container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.blog .container .blog-text {
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.blog .container .blog-text h2 {
+  font-size: 32px;
+  padding: 20px;
+}
+
+.blog .container .blog-info {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.blog .container .blog-info .blog-card {
+  width: 320px;
+}
+
+.blog .container .blog-info .blog-card img {
+  width: 100%;
+}
+
+.blog .container .blog-info .blog-card h3 {
+  padding: 25px 0;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  background-image: url(../image/logo/ezgif.com-gif-maker.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 300px;
+}
+
+.footer .container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.footer .container .footer-list {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .container .footer-list h3 {
+  font-size: 24px;
+  color: #fff;
+  padding: 15px 0;
+}
+
+.footer .container .footer-list ul {
+  padding: 25px 0;
+}
+
+.footer .container .footer-list ul li a {
+  color: #fff;
+  padding: 5px 0;
+  font-size: 20px;
+}
+
+.footer .container .footer-list ul li a:hover {
+  color: #91b40d;
+}
+
+.footer .container .copyright {
+  padding: 30px 0;
+}
+
+.footer .container .copyright p {
+  font-size: 20px;
+  color: #fff;
+  text-align: start;
+}
+/*# sourceMappingURL=style.css.map */
